@@ -4,4 +4,4 @@ runs:
   using: composite
   steps:
     - shell: bash
-      run: printf '%s\n' 'Dependency policy passed.'
+      run: printf '%s\n' 'Dependency policy passed $FLAG'
